@@ -32,6 +32,8 @@ services:
 networks:
   postgres:
     driver: bridge
+  postgres-fraud:
+    driver: bridge
 
 volumes:
   postgres:
